@@ -1,1 +1,97 @@
+/*
+  Importação de fontes do Google Fonts para um visual moderno.
+  Aqui, estamos usando a fonte 'Poppins', que é limpa e fácil de ler.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+/* Estilos gerais do corpo da página */
+body {
+    background-color: #000000; /* Cor de fundo preta, como na Netflix */
+    color: #ffffff; /* Cor do texto branca para contraste */
+    font-family: 'Poppins', sans-serif; /* Fonte 'Poppins' para todo o texto */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #141414; /* Um tom de cinza escuro para diferenciar o cabeçalho do fundo */
+    border-bottom: 2px solid #e50914; /* Uma linha vermelha na parte inferior, a cor do logo da Netflix */
+    padding-bottom: 3rem; /* Espaçamento na parte inferior */
+}
+
+/* Estilos para os títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* Títulos em branco para destaque */
+    font-weight: 700; /* Negrito para os títulos */
+}
+
+/* Estilos para links */
+a {
+    color: #e50914; /* Cor vermelha para links, a cor principal da Netflix */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    transition: color 0.3s ease; /* Adiciona uma transição suave de cor ao passar o mouse */
+}
+
+a:hover {
+    color: #ff0a16; /* Um vermelho um pouco mais claro ao passar o mouse */
+}
+
+/* Estilos para os botões do modal */
+.modal-footer .btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: #ff0a16;
+    border-color: #ff0a16;
+}
+
+/* Estilos para o container principal */
+main.container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Estilos para os cards dos projetos */
+.card {
+    background-color: #1e1e1e; /* Cor de fundo do card para se destacar */
+    border: none; /* Remove a borda padrão do Bootstrap */
+    color: #ffffff; /* Texto branco */
+    transition: transform 0.3s ease; /* Efeito de transição suave */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move o card para cima ao passar o mouse */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Adiciona uma sombra para profundidade */
+}
+
+/* Estilos para os títulos dentro dos cards */
+.card-title {
+    color: #e50914; /* Título do card em vermelho */
+}
+
+/* Estilos para o modal */
+.modal-content {
+    background-color: #141414; /* Fundo do modal mais escuro */
+    color: #ffffff; /* Texto do modal branco */
+}
+
+.modal-header {
+    border-bottom: 1px solid #333333; /* Borda sutil no cabeçalho do modal */
+}
+
+.modal-footer {
+    border-top: 1px solid #333333; /* Borda sutil no rodapé do modal */
+}
+
+.btn-close {
+    filter: invert(1); /* Deixa o 'X' do botão de fechar branco para contraste */
+}
+
+/* Estilos para os badges de habilidades */
+.badge {
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
